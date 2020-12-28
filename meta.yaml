@@ -1,0 +1,39 @@
+name: "Ingame Admin"
+description: "enables some chat commands"
+author: "Multivitamin <david.kartnaller@gmail.com>"
+version: "1.0.0"
+backend: "BF3"
+entry: "lib/index.js"
+dependency:
+  - Commander
+optionalDependency:
+  - Discord
+vars:
+  - name: "enableBan"
+    description: "enables command ban"
+    type: "boolean"
+    default: true
+  - name: "enableKill"
+    description: "enables command kill"
+    type: "boolean"
+    default: true
+  - name: "enableKick"
+    description: "enables command kick"
+    type: "boolean"
+    default: true
+  - name: "enableMove"
+    description: "enables command move"
+    type: "boolean"
+    default: true
+  - name: "enableNextRound"
+    description: "enables command nextround"
+    type: "boolean"
+    default: true
+  - name: "enableRestartRound"
+    description: "enables command restartround"
+    type: "boolean"
+    default: true
+  - name: "enableSay"
+    description: "enables command say"
+    type: "boolean"
+    default: true
